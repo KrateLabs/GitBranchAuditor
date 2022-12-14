@@ -6,6 +6,8 @@
       "launchUrl": "swagger",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
+        //"GITBranchAuditor_APP_ID": "272208",
+        //"GITBranchAuditor_PRIVATE_KEY": ""
       },
       "dotnetRunMessages": true,
       "applicationUrl": "http://localhost:5075"

@@ -5,8 +5,8 @@
         public static string GenerateToken(IConfiguration config)
         {
 
-            var appId = config.GetValue<int>("GITHUB_APP_ID");
-            var appPrivateKey = config["GITHUB_APP_PRIVATE_KEY"];
+            var appId = config.GetValue<int>("GITBranchAuditor_APP_ID");
+            var appPrivateKey = config["GITBranchAuditor_PRIVATE_KEY"];
 
             // Use GitHubJwt library to create the GitHubApp Jwt Token using our private certificate PEM file
             var generator = new GitHubJwt.GitHubJwtFactory(
